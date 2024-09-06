@@ -229,7 +229,7 @@ determine the exact padding."
    ;;;; ivy
    (ivy-current-match :background bg-blue :distant-foreground base0 :weight 'normal)
    (ivy-posframe :background base1 :foreground fg)
-   (internal-border :background base7)
+   ;; (internal-border :background base7)
    ;;;; lsp-mode and lsp-ui-mode
    (lsp-ui-peek-highlight :foreground yellow)
    (lsp-ui-sideline-symbol-info :foreground (doom-blend comments bg 0.85)
